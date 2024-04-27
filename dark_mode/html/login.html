@@ -1,0 +1,98 @@
+<!doctype html>
+<html data-bs-theme="dark">
+<head>
+<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<link rel="icon" href="../img/ico.png" type="image/png">
+<title>Site Oficial - Telecall - Internet, Telefonia, Celular e muito mais</title>
+</head>
+<body>
+<link rel="stylesheet" href="../css/login.css" />
+<nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark" data-bs-theme="dark">
+<div class="container-fluid">
+  <a href="index.html"><img src="../img/logo.png" widht="50px" height="50px"></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Internet
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Internet Dedicada</a></li>
+            <li><a class="dropdown-item" href="#">Banda Larga</a></li>
+            <li><a class="dropdown-item" href="#">Wi-Fi</a></li>
+          </ul>
+      </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mobilidade
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Celular empresarial</a></li>
+            <li><a class="dropdown-item" href="#">MVNA/E</a></li>
+          </ul>
+      </li>
+      <div>
+	  <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CPaaS
+            
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://modavo.com.br/produtos/twofa/">2FA</a></li>
+            <li><a class="dropdown-item" href="https://modavo.com.br/produtos/numero-mascara/">Número Máscara</a></li>
+            <li><a class="dropdown-item" href="https://modavo.com.br/produtos/campanha/">SMS Programável</a></li>
+            <li><a class="dropdown-item" href="https://modavo.com.br/produtos/consulta-numero/">Google Verified Calls</a></li>
+          </ul>
+      </li>
+      </li>
+      </ul>
+      <p id="hello"></p>
+      <input type="checkbox" class="checkbox" id="chk" />
+      <label class="label" for="chk">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <div class="ball"></div>
+      </label>
+      <a href="login.html" id="areaClienteBtn"><button class="btn btn-outline-success" type="submit">Área do Cliente</button></a>
+</nav>
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header bg-body-tertiary text-center">
+          <h4 class="mb-0">Área de Login</h4>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label">Usuário</label>
+              <input type="text" maxlength="6" class="form-control" id="username">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Senha</label>
+              <input type="password" maxlength="8" class="form-control" id="password">
+            </div>
+            <class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-primary">Entrar</button>
+              <a href="cadastro.html" class="btn btn-primary">Cadastrar</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="bg-dark text-white text-center p-3">
+  &copy; 2023  Todos os direitos reservados
+</footer>
+</body>
+  <script src="../js/login.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</html>
