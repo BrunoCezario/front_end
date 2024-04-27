@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Validação</title>
+</head>
+<body>
+    <form class="box" onsubmit="gravarUsuario(event)">
+        <h1>Validação de CPF</h1>
+        <label>Nome Completo</label>
+        <br>
+        <br>
+        <input type="text" name="nome" id="idNome" required  placeholder="Digite seu nome">
+        <br>
+        <br>
+        <label>Documento(cpf)</label>
+        <br>
+        <br>
+        <input type="text"   name="documento" id="idDocumento" 
+        onkeydown="ajustaCpf(this)" 
+        onkeyup="ajustaCpf(this)"
+        onkeydown="ajustaCpf(this)" 
+        onblur="validarCPF(this)"
+        required placeholder="Digite seu documento"
+        maxlength="14" required>
+        <br>
+        <br>
+        <button type="submit"   class="botao">Cadastrar</button>
+        <br>
+        <br>
+        <button type="reset" class="botao">Limpar</button>
+        <br>
+        <br>
+        <button class="botao"><a href="C:/Users/bruno.cezario/Documents/UNISUAM/Aula1604_fron_end/login.html">Voltar</a></button>
+        </div>
+    </div>
+    </form>
+    
+</body>
+<script src="cpf.js"></script>
+</html>
