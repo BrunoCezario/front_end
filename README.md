@@ -1,2 +1,2 @@
 # front_end
-Desenvolviemnto Front end com html, css e JavaScript
+# Desenvolvimento Front end com html, css e JavaScript e um pouco de python.
