@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <script src="../jquery.js"></script>
+    <title>Consulta Cep</title>
+</head>
+<body>
+   
+    <form class="box">
+        <h1>Consulta Cep </h1>
+        <label>Cep:
+            <input  type="text" id="cep" value="" size="10" maxlength="8" onkeydown="ajustaNumeros(this)" /></label>
+            <br />
+            <br />
+            <label>Rua:
+            <input  type="text" id="rua" size="60" /></label><br /><br />
+            <label>Bairro:
+            <input  type="text" id="bairro" size="40" /></label><br /><br />
+            <label>Cidade:
+            <input type="text" id="cidade" size="40" /></label><br /><br />
+            <label>Estado:
+            <input  type="text" id="uf" size="2" /></label><br /><br />
+            <label>IBGE:
+            <input  type="text" id="ibge" size="8" /></label><br />
+       </div>
+    </div>
+    </form>
+</body>
+<script src="correios.js"></script>
+</html>
