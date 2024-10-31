@@ -9,3 +9,4 @@ $('#btnCorreios').click(function(){
 $('#btnQualquer').click(function(){
     window.open("../notFound.html");
 });
+

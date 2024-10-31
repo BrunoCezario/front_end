@@ -11,7 +11,7 @@ function gravarUsuario(event){
     && senha.value!=''){
       
     localStorage.setItem('login', login.value);
-     localStorage.setItem('senha', senha.value);
+    localStorage.setItem('senha', senha.value);
     
     alert("CADASTRO EFETUADO COM SUCESSO");
       
