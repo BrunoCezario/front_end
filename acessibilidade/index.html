@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Link para utilização de ícones Font Awesome-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /> 
+    <title>Teste</title>
+</head>
+<body>
+    <div class="conteudo">
+    <p>Para mais informações sobre os pontos indicados e outros locais de reciclagem eletrônica, entre em contato conosco ou acesse o site da Comlubr.</p>
+</div>
+    <div id="menu-acessibilidade" class="menu-acessibilidade">
+        <div class="btnAbre" onclick="toggleMenu()">
+        <span class="material-symbols-outlined">accessible_forward</span>
+        </div>
+        <div id="painel-acessibilidade" class="painel-acessibilidade">
+            <button id="increaseFont">Aumentar Fonte</button>
+            <button id="decreaseFont">Diminuir Fonte</button>
+            <button onclick="mudarContraste()">Alterar Contraste</button>
+            <button onclick="lerConteudo()">Ler Conteúdo</button>
+            <button onclick="pararLeitura()">Parar Leitura</button>
+            <label for="feedback">Feedback de acessibilidade:</label>
+            <textarea id="feedback" rows="4" placeholder="Tem um problema de acessibilidade? Nós de um Feedback"></textarea>
+            <button onclick="enviarFeedback()">Enviar Feedback</button>
+        </div>
+    </div>
+    <!--Menu de Feedback-->
+    <div id="menu-feedback" class="menu-feedback">
+        <div class="btnFeedback" onclick="toggleFeedbackMenu()">
+            <span class="material-symbols-outlined">feedback</span>
+        </div>
+        <div id="painel-feedback" class="painel-feedback">
+            <h3>Deixe seu Feedback</h3>
+            <p>Nosso site visa a mudança, nada melhor do que você nós ajudar de pertinho.
+                Abaixo escreva um feedback sobre nosso site e sua experiência dentro dele.
+                Não se esqueça, pode fazer isso quando e quantas vezes quiser!!</p>
+            <textarea id="feedback-text" rows="5" placeholder="Digite aqui seu feedback..."></textarea>
+            <button onclick="enviarFeedback()">Enviar Feedback</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
