@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ibge.css">
-    <title>Validação</title>
+    <title>Consulta Ibge</title>
 </head>
 <body>
     <form class="box">
         <h1>Busca Paises IBGE</h1>
         <input type="text" name="sigla" id="idSigla" 
-        onblur="preencherEndereco(this)" 
+        onblur="preencherDados(this)" 
         maxlength="2"
         required placeholder="Digite a sigla do pais">
         <br>
@@ -20,7 +20,7 @@
         <br>
         <input type="text"  name="area"
          id="idArea" placeholder="Area total">
-         <br>
+        <br>
         <br>
         <input type="text"  name="regiao"
          id="idRegiao" placeholder="Regiao">
@@ -33,10 +33,7 @@
        <button type="reset" class="botao">Limpar</button>
         <br>
         <br>
-       </div>
-    </div>
     </form>
-    
 </body>
 <script src="ibge.js"></script>
 </html>
