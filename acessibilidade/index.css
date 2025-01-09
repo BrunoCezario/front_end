@@ -1,0 +1,126 @@
+/*Estilos Gerais Feedback*/
+#menu-feedback {
+    position: fixed; /*Fixa o menu no lugar*/
+    bottom: 10px; /*Fica 10px acima da parte inferior da tela*/
+    right: 10px; /*Fica 10px distante da borda direita*/
+    z-index: 9999; /*Garante que o menu fique sobre outros elementos*/
+}
+  
+.btnFeedback {
+    background-color: #4caa38;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.material-symbols-outlined {
+    font-size: 30px;
+}
+  
+.painel-feedback {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+}
+  
+.painel-feedback h3 {
+    margin-bottom: 10px;
+}
+  
+.painel-feedback textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+  
+.painel-feedback button {
+    background-color: #4caa38;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+  
+/*Responsividade*/
+@media (max-width: 600px) {
+    .painel-feedback {
+        width: 90%; /*Faz o painel de feedback ocupar 90% da largura da tela em dispositivos móveis*/
+    }
+}
+
+
+
+
+
+/*Estilos Gerais Acessibilidade*/
+#menu-acessibilidade {
+    position: fixed; /*Fixa o menu no lugar*/
+    bottom: 10px; /*Fica 10px acima da parte inferior da tela*/
+    left: 10px; /*Fica 10px distante da borda esquerda*/
+    z-index: 9999; /*Garante que o menu fique sobre outros elementos*/
+}
+  
+.btnAbre {
+    background-color: #4caa38;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.material-symbols-outlined {
+    font-size: 40px;
+}
+  
+.painel-acessibilidade {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+}
+  
+.painel-acessibilidade button {
+    background-color: #4caa38;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.painel-acessibilidade textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/*Contraste*/
+.fundo-escuro {
+    background-color: #333;
+    color: white;
+}
